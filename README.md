@@ -43,7 +43,7 @@ npm run dev
 7. HeroIcons: 2.1.3
 8. Vite: 4.4.0 
 9. Tailwindcss: 3.3.2
-10. TypeScript
+10. TypeScript: 5.2.2
 
 ----
 
