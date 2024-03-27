@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# Calories tracker 📄
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Contador de calorias ✨
 
-Currently, two official plugins are available:
+La aplicación permite: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Añadir alimentos consumidos. ✏️
+2. Añadir ejercicio realizado. 💪
+3. Calcular la diferencia de calorias. 💯
+4. Eliminar alimentos o ejercicios. ✖️
+5. Modificar alimentos o ejercicios. ✏️
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Notas adicionales 📗
 
-- Configure the top-level `parserOptions` property like this:
+##### Para utlizar la aplicación se deberan:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+---
+
+Instalar modulos de node ⬇️ :
+
+```
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Construir ejecutar ⚙️ :
+
+```
+npm run dev
+```
+
+---
+
+### La aplicación fue construido mediante 🔧 :
+
+1. React: 18.2.0 🚀
+2. React Router Dom: 6.14.1
+3. Hooks (useReducer, useState, useMemo)
+4. uuid: 9.0.1
+5. Reducer
+6. LocalStorage
+7. HeroIcons: 2.1.3
+8. Vite: 4.4.0 
+9. Tailwindcss: 3.3.2
+10. TypeScript
+
+----
+
+##### Nota: La aplicación cuenta con LocalStorage para la persistencia de los datos 🚀
